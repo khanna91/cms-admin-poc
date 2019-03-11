@@ -1,0 +1,13 @@
+{
+  "generator-astro": {
+    "name": "cms-admin-poc",
+    "apibase": "api",
+    "apiversion": "v1",
+    "version": "1.0.0",
+    "description": "This project generated using Astro Generator",
+    "author": "Rahul Khanna",
+    "src": "src/server",
+    "client": "src/client",
+    "kind": "fullstack"
+  }
+}

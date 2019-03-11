@@ -1,0 +1,29 @@
+{
+  "typeAcquisition": {
+      "include": [
+          "jest"
+      ]
+  },
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["src"],
+      "@api/*": ["src/server/api/*"],
+      "@boot/*": ["src/server/boot/*"],
+      "@config/*": ["src/server/config/*"],
+      "@database/*": ["src/server/database/*"],
+      "@middlewares/*": ["src/server/middlewares/*"],
+      "@models/*": ["src/server/models/*"],
+      "@services/*": ["src/server/services/*"],
+      "@tests/*": ["src/server/tests/*"],
+      "@utils/*": ["src/server/utils/*"],
+      "@routes/*": ["src/server/routes/*"],
+      "@client/*": ["src/client/*"],
+      "@components/*": ["src/client/components/*"],
+      "@containers/*": ["src/client/containers/*"],
+      "@ducks/*": ["src/client/ducks/*"],
+      "@hox/*": ["src/client/hox/*"]
+    }
+  }
+}
